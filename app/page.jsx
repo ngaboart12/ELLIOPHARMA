@@ -9,6 +9,7 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import About from "./Components/About"
 import WhychooseUs from "./Components/WhychooseUs"
+import Form from "./Components/Form";
 export const metadata = {
   title: "Ellophrama - Home",
   description: "ellophran Home",
@@ -217,35 +218,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full lg:w-1/2 px-10">
-            <form action="" className="flex flex-col gap-[10px]">
-              <div className="flex flex-col gap-[6px]">
-                <span className="text-[18px] font-[300]">Name</span>
-                <input
-                  type="text"
-                  placeholder="Type Your Name"
-                  className="border p-4"
-                />
-              </div>
-              <div className="flex flex-col gap-[6px]">
-                <span className="text-[18px] font-[300]">Email</span>
-                <input
-                  type="text"
-                  placeholder="Type Your Email"
-                  className="border p-4"
-                />
-              </div>
-              <div className="flex flex-col gap-[6px]">
-                <span className="text-[18px] font-[300]">Message</span>
-                <textarea
-                  type="text"
-                  placeholder="Type Your Message"
-                  className="border p-4"
-                />
-              </div>
-              <button className="p-4 w-[200px] bg-blue-600 text-white">
-                Contact
-              </button>
-            </form>
+            <Form/>
           </div>
         </div>
       </div>

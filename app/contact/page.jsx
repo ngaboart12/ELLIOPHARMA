@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import { FaPhone } from "react-icons/fa6";
 import Footer from "../Components/Footer";
 import { IoMdMail } from "react-icons/io";
+import Form from "../Components/Form"
 
 
 export const metadata = {
@@ -21,39 +22,7 @@ const Contact = () => {
           <h1 className="text-[18px] font-[700] border-b-2 border-blue-500 uppercase">
             Contact Us
           </h1>
-          <form action="" className="w-full py-5 flex flex-col gap-6">
-            <div className="flex flex-col gap-1 w-full">
-              <span className="text-black">Name</span>
-              <input
-                type="text"
-                placeholder="Enter your name"
-                className="p-[10px] w-full  outline-none rounded-xl border border-gray-300 font-light placeholder:text-black text-black"
-              />
-            </div>
-            <div className="flex flex-col gap-1">
-              <span className="text-black">Email</span>
-              <input
-                type="text"
-                placeholder="Enter your Email"
-                className="p-[10px] outline-none rounded-xl border border-gray-300 font-light  placeholder:text-black text-black"
-              />
-            </div>
-            <div className="flex flex-col gap-1">
-              <span className="text-black">Message</span>
-              <textarea
-                type="text"
-                placeholder="Enter your Message"
-                className="p-[10px] outline-none rounded-xl border border-gray-300 font-light  placeholder:text-black text-black"
-                rows={3}
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className=" bg-blueColor  w-full md:w-full text-white rounded-xl p-4"
-            >
-              Submit Now
-            </button>
-          </form>
+        <Form/>
         </div>
 
         <div className="w-full lg:w-1/2 py-10">

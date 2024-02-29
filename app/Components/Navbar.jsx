@@ -1,15 +1,18 @@
 "use client"
 import React, { useState } from 'react'
 import { IoReorderThreeSharp } from "react-icons/io5";
+import Image from "next/image"
 
 const Navbar = ({color,back}) => {
   const [toogleOpen,setToogleOpen] = useState(false)
 
   return (
-    <div className={`w-full border-b border-${color}/40 bg-transparent flex felx-row justify-between items-center py-4`}>
-      <a href="/">
+    <div className={`w-full border-b border-${color}/40 bg-transparent flex felx-row justify-between items-center`}>
+      <a href="/" >
+        <div className='w-[100px] h-[100px]'>
 
-            <h1 className={`text-[24px] font-[600] text-${color}`}>Logo</h1>
+          <Image src="/image/logo.png" width={300} height={300} className='w-full h-full object-cover' />
+        </div>
       </a>
             <div className={` hidden  md:flex flex-row items-center gap-[20px] lg:gap-[40px] text-${color} font-[400] text-[14px] `}>
               <a href="/">Home</a>
