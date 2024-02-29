@@ -21,7 +21,7 @@ const About = () => {
             ducimus nobis architecto veritatis accusamus exercitationem sequi,
             dolorum beatae eum accusantium est minus.
           </span>
-          <a href="">
+          <a href="/about-us">
 
           <button className="p-4 hover:opacity-80 transition-all bg-blue-600 text-white w-[200px] rounded-[8px] font-[300]">Learn More</button>
           </a>
