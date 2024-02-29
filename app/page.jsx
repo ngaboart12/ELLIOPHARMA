@@ -33,7 +33,7 @@ export default function Home() {
               <span className="text-[#c5c5c5] text-center lg:text-start font-[300]  max-w-[600px]">
                 Also you dry creeping beast multiply fourth abundantly our itsel
                 signs bring our. Won form living. Whose dry you seasons divide
-                given gathering great in whose you'll greater let livein form
+                given gathering great in whose you will greater let livein form
                 beast sinthete better together these place absolute right.
               </span>
               <div className="flex flex-col md:flex-row gap-[20px] items-center">

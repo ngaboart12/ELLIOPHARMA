@@ -46,10 +46,10 @@ const Blog = () => {
         </h1>
         <span className="max-w-[500px] text-black/60 leading-5 font-[300] text-center">
           Managing your medications effectively is crucial for maintaining your
-          health and well-being. Whether you're juggling multiple prescriptions
+          health and well-being. Whether you are juggling multiple prescriptions
           or just starting a new medication regimen, staying organized and
           informed can help you avoid potential complications and achieve the
-          best possible outcomes. In this blog post, we'll share five essential
+          best possible outcomes. In this blog post, we will share five essential
           tips to help you manage your medications with confidence and ease
         </span>
         {/* <div className="flex flex-row gap-[10px]">
@@ -63,7 +63,7 @@ const Blog = () => {
         <div className=" grid bg-gradient-to-r grid-cols-1 md:grid-cols-3 gap-[50px] w-full py-4 mt-4">
           {blogs.map((item, index) => {
             return (
-              <div className=" p-4 w-full flex flex-col gap-[4px]  rounded-[12px] py-[20px]">
+              <div key={index} className=" p-4 w-full flex flex-col gap-[4px]  rounded-[12px] py-[20px]">
                 <div className="h-[25vh] w-full   ">
                   <Image
                     src="/image/first.jpg"
