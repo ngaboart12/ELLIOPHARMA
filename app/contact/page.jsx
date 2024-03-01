@@ -3,8 +3,7 @@ import Navbar from "../Components/Navbar";
 import { FaPhone } from "react-icons/fa6";
 import Footer from "../Components/Footer";
 import { IoMdMail } from "react-icons/io";
-import Form from "../Components/Form"
-
+import Form from "../Components/Form";
 
 export const metadata = {
   title: "Ellophrama - Contact",
@@ -22,15 +21,15 @@ const Contact = () => {
           <h1 className="text-[18px] font-[700] border-b-2 border-blue-500 uppercase">
             Contact Us
           </h1>
-        <Form/>
+          <Form />
         </div>
 
         <div className="w-full lg:w-1/2 py-10">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.4238525825967!2d30.12989897473947!3d-1.9851223979969443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca71e1ddf7a99%3A0x75375873a766ef26!2sKaze%20Residence!5e0!3m2!1sen!2srw!4v1708994363396!5m2!1sen!2srw"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d379.6243736190742!2d30.088920513909457!3d-2.1424502555925673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2srw!4v1709250601014!5m2!1sen!2srw"
             width="500"
             height="350"
-            className="border:0;"
+            style="border:0;"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -39,29 +38,28 @@ const Contact = () => {
       </div>
       <div className="grid grid-cols-2 w-full md:grid-cols-3 gap-[20px] px-[10px] md:px-[100px]">
         <div className="flex flex-col md:flex-row items-center gap-[10px]   p-4 border-[1px] border-black/20">
-            <div>
+          <div>
             <IoMdMail size={25} color="darkblue" />
-            </div>
-            <div className="flex flex-col items-center md:items-start">
-              <span>Email</span>
-              <span>Ellophrama@gmail.com</span>
-            </div>
-            
+          </div>
+          <div className="flex flex-col items-center md:items-start">
+            <span>Email</span>
+            <span>Ellophrama@gmail.com</span>
+          </div>
         </div>
-      
+
         <div className="flex flex-col md:flex-row items-center gap-[10px]   p-4 border-[1px] border-black/20">
-            <div><FaPhone size={25} color="darkblue"/></div>
-            <div className="flex flex-col items-center md:items-start">
-              <span>Phone</span>
-              <span>0675234767</span>
-            </div>
-            
+          <div>
+            <FaPhone size={25} color="darkblue" />
+          </div>
+          <div className="flex flex-col items-center md:items-start">
+            <span>Phone</span>
+            <span>0675234767</span>
+          </div>
         </div>
       </div>
-      
-      <Footer/>
-    </div>
 
+      <Footer />
+    </div>
   );
 };
 

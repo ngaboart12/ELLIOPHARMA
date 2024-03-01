@@ -72,6 +72,14 @@ export default function Home() {
           Trust By Beloved Partners and Customers
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-[20px] items-center  w-full">
+        <div className="w-[100px] p-2  rounded-[4px]">
+            <Image
+              src="/image/RSSB.jpg"
+              width={500}
+              height={500}
+              className="w-full h-full object-cover"
+            />
+          </div>
           <div className="w-[100px] p-2  rounded-[4px]">
             <Image
               src="/image/MMI.png"
@@ -80,14 +88,7 @@ export default function Home() {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="w-[100px] p-2  rounded-[4px]">
-            <Image
-              src="/image/RSSB.jpg"
-              width={500}
-              height={500}
-              className="w-full h-full object-cover"
-            />
-          </div>
+      
           <div className="w-[100px] p-2  rounded-[4px]">
             <Image
               src="/image/sanlam.png"
@@ -98,7 +99,39 @@ export default function Home() {
           </div>
           <div className="w-[100px] p-2  rounded-[4px]">
             <Image
+              src="/image/minubumwe.png"
+              width={500}
+              height={500}
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="w-[100px] p-2  rounded-[4px]">
+            <Image
+              src="/image/bdmi.png"
+              width={500}
+              height={500}
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="w-[100px] p-2  rounded-[4px]">
+            <Image
               src="/image/UZIMA.png"
+              width={500}
+              height={500}
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="w-[100px] p-2  rounded-[4px]">
+            <Image
+              src="/image/ASA.png"
+              width={500}
+              height={500}
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="w-[100px] p-2  rounded-[4px]">
+            <Image
+              src="/image/itm.jpg"
               width={500}
               height={500}
               className="w-full h-full object-cover"
@@ -206,15 +239,15 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full py-10">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15949.983648147767!2d30.114462!3d-1.955021!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca701a4aa0af3%3A0xabc56261f30a4e57!2sAmahoro%20National%20Stadium!5e0!3m2!1sen!2srw!4v1708622404667!5m2!1sen!2srw"
-                width="500"
-                height="250"
-                className="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+                <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d379.6243736190742!2d30.088920513909457!3d-2.1424502555925673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2srw!4v1709250601014!5m2!1sen!2srw"
+            width="500"
+            height="250"
+            className="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
             </div>
           </div>
           <div className="w-full lg:w-1/2 px-10">
