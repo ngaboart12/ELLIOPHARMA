@@ -5,10 +5,7 @@ import Footer from "../Components/Footer";
 import { IoMdMail } from "react-icons/io";
 import Form from "../Components/Form";
 
-export const metadata = {
-  title: "Ellophrama - Contact",
-  description: "ellopgrama blog page",
-};
+
 
 const Contact = () => {
   return (
@@ -29,7 +26,7 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d379.6243736190742!2d30.088920513909457!3d-2.1424502555925673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2srw!4v1709250601014!5m2!1sen!2srw"
             width="500"
             height="350"
-            style="border:0;"
+            className="border:0;"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
