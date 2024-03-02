@@ -5,19 +5,26 @@ import Footer from "../Components/Footer";
 import { IoMdMail } from "react-icons/io";
 import Form from "../Components/Form";
 
-
-
 const Contact = () => {
   return (
     <div className="flex flex-col gap-[40px] overflow-x-hidden">
       <div className="px-[10px] md:px-[100px]">
         <Navbar />
       </div>
-      <div className="px-[10px] md:px-[100px] flex flex-col items-center lg:flex-row gap-[20px] w-full">
-        <div className="flex flex-col gap-[10px] items-start py-10 w-full lg:w-1/2  md:px-20">
-          <h1 className="text-[18px] font-[700] border-b-2 border-blue-500 uppercase">
+      <div className="flex flex-row w-full gap-[20px] px-[10px] md:px-[150px]">
+        <div className="w-full md:w-1/2">
+          <h1 className="text-[18px] font-[700] w-[150px] border-b-2 border-blue-500 uppercase">
             Contact Us
           </h1>
+        </div>
+        <div className="w-full md:w-1/2">
+          Ready to experience personalized pharmacy care? Get in touch with us
+          today to make an appointment or learn more about our services. Your
+          health and well-being are our top priorities.
+        </div>
+      </div>
+      <div className="px-[10px] md:px-[100px] flex flex-col items-center lg:flex-row gap-[20px] w-full">
+        <div className="flex flex-col gap-[10px] items-start py-10 w-full lg:w-1/2  md:px-20">
           <Form />
         </div>
 

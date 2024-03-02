@@ -16,14 +16,19 @@ const About = () => {
         <div className="w-full lg:w-1/2 flex flex-col items-center md:items-start py-10 gap-[20px]">
           <h1 className="text-[24px] font-[800] text-blue-600">About Us</h1>
           <span className="text-center md:text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-            necessitatibus aut maiores voluptatibus non velit, fugiat rerum
-            ducimus nobis architecto veritatis accusamus exercitationem sequi,
-            dolorum beatae eum accusantium est minus.
+            At Elliopharma, we pride ourselves on our dedication to integrity,
+            compassion, and expertise in delivering personalized pharmacy
+            services. With over three years of experience, our team of expert
+            pharmacists is here to provide you with personalized guidance and
+            support for your health and well-being. Whether it's medication
+            dispensing, health consultation, or first aid supplies, we are here
+            to ensure you receive the highest quality care tailored to your
+            needs.
           </span>
           <a href="/about-us">
-
-          <button className="p-4 hover:opacity-80 transition-all bg-blue-600 text-white w-[200px] rounded-[8px] font-[300]">Learn More</button>
+            <button className="p-4 hover:opacity-80 transition-all bg-blue-600 text-white w-[200px] rounded-[8px] font-[300]">
+              Learn More
+            </button>
           </a>
         </div>
       </div>

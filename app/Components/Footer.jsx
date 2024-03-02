@@ -2,14 +2,18 @@ import React from "react";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
+import Image from "next/image"
 
 const Footer = () => {
   return (
     <div class="w-full bg-gradient-to-tr px-[10px] md:px-[100px] from-background to-[#015bb4] flex flex-col gap-[10px] p-4">
       <div class="w-full flex flex- md:flex-row gap-[20px] items-center justify-between py-4 border-b border-white/40">
-        <div>
-          <h1 class="text-[24px] font-[800] text-white">Logo</h1>
+      <a href="/" >
+        <div className='w-[100px] h-[100px] '>
+
+          <Image src="/image/logo.png" width={300} height={300} className='w-full h-full object-cover' />
         </div>
+        </a>
         <div class="flex text-white flex-row items-center gap-[10px]">
           <span>&copy; 2024 ELLIOPHARMA inc</span>
         </div>
