@@ -11,7 +11,7 @@ const Navbar = ({color,back}) => {
       <a href="/" >
         <div className='w-[100px] h-[100px]'>
 
-          <Image src="/image/logo.png" width={300} height={300} className='w-full h-full object-cover' />
+          <Image src="/image/logo.png" alt='logo' width={300} height={300} className='w-full h-full object-cover' />
         </div>
       </a>
             <div className={` hidden  md:flex flex-row items-center gap-[20px] lg:gap-[40px] text-${color} font-[400] text-[14px] `}>

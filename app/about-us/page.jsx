@@ -33,7 +33,7 @@ const AboutUs = () => {
           </span>
         </div>
         <div className="flex flex-col w-full lg:w-1/2">
-          <Image
+          <Image alt="photo"
             src="/image/first.jpg"
             width={600}
             height={600}
@@ -75,7 +75,7 @@ const AboutUs = () => {
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px]">
           <div className="flex flex-col gap-[10px]">
             <div className="w-full h-[40vh] ">
-              <Image
+              <Image alt="photo"
                 src={`/image/teamProfile.webp`}
                 width={500}
                 height={500}
@@ -89,7 +89,7 @@ const AboutUs = () => {
           </div>
           <div className="flex flex-col gap-[10px]">
             <div className="w-full h-[40vh] ">
-              <Image
+              <Image alt="photo"
                 src={`/image/teamProfile.webp`}
                 width={500}
                 height={500}
@@ -103,7 +103,7 @@ const AboutUs = () => {
           </div>
           <div className="flex flex-col gap-[10px]">
             <div className="w-full h-[40vh] ">
-              <Image
+              <Image alt="photo"
                 src={`/image/teamProfile.webp`}
                 width={500}
                 height={500}
@@ -117,7 +117,7 @@ const AboutUs = () => {
           </div>
           <div className="flex flex-col gap-[10px]">
             <div className="w-full h-[40vh] ">
-              <Image
+              <Image alt="photo"
                 src={`/image/teamProfile.webp`}
                 width={500}
                 height={500}

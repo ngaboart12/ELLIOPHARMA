@@ -84,6 +84,7 @@ function Testimonials() {
               <div className="flex flex-col md:flex-row items-start gap-4 w-full  p-6 rounded-lg">
                 <div className="w-[130px] h-[100px] ">
                   <Image
+                   alt="profile"
                     src={item.profile}
                     width={500}
                     height={500}

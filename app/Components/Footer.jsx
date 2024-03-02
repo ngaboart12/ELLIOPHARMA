@@ -11,7 +11,7 @@ const Footer = () => {
       <a href="/" >
         <div className='w-[100px] h-[100px] '>
 
-          <Image src="/image/logo.png" width={300} height={300} className='w-full h-full object-cover' />
+          <Image src="/image/logo.png" alt="logo" width={300} height={300} className='w-full h-full object-cover' />
         </div>
         </a>
         <div class="flex text-white flex-row items-center gap-[10px]">

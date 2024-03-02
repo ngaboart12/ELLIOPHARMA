@@ -20,7 +20,7 @@ const About = () => {
             compassion, and expertise in delivering personalized pharmacy
             services. With over three years of experience, our team of expert
             pharmacists is here to provide you with personalized guidance and
-            support for your health and well-being. Whether it's medication
+            support for your health and well-being. Whether it is medication
             dispensing, health consultation, or first aid supplies, we are here
             to ensure you receive the highest quality care tailored to your
             needs.
