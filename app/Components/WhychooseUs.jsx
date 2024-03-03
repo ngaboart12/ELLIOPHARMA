@@ -12,7 +12,7 @@ const WhychooseUs = () => {
         </h1>
         <div className="w-full md:w-1/2">
           <span className=" text-center">
-            At Elliopharma, we're dedicated to providing top-quality
+            At Elliopharma, we are dedicated to providing top-quality
             pharmaceutical care, personalized service, and convenience to ensure
             your well-being is always our priority.
           </span>
