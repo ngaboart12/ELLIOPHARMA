@@ -88,9 +88,10 @@ const Blog = () => {
     <div className=" w-screen bg-white overflow-x-hidden">
       <div className=" px-[10px] md:px-[100px]">
       <div className="flex flex-row items-center gap-[10px] p-2">
-              <span className="text-[14px] text-black">Tel:05777854</span>
+              <span className="text-[14px] text-black">Tel:+25078688704</span>
               <span className="text-[14px] text-black">Email:  <a href="">elliopharma10@gmail.com</a> </span>
             </div>
+
         <Navbar color={"black"} back="black" />
       </div>
       <div className="flex  flex-col gap-[10px] w-full items-center px-[10px] md:px-[100px] py-10">
