@@ -52,7 +52,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col items-center md:items-start">
             <span>Email</span>
-            <span>Ellophrama@gmail.com</span>
+            <span>elliopharma10@gmail.com</span>
           </div>
         </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col items-center md:items-start">
             <span>Phone</span>
-            <span>0675234767</span>
+            <span>+25078688704</span>
           </div>
         </div>
       </div>
