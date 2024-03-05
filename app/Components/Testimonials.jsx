@@ -15,25 +15,25 @@ import "swiper/css/scrollbar";
 function Testimonials() {
   const testimon = [
     {
-      profile: "/image/profile1.jpg",
-      name: "KAGABO Sharon",
+      profile: "/image/woman2.jpg",
+      name: "Dr Mugeni Adeline ",
       type: "student",
       comment:
         "For me, working with your educational consultant changed everything. Their advice and assistance were quite helpful to me during my academic career. I liked that they were always problem-solving and that I never felt guilty for whatever difficulties I encountered. I successfully and confidently made my way through my academics because of their knowledge.",
     },
     {
-        profile: "/image/profile2.jpg",
-      name: "SIBOMANA Christophe",
+        profile: "/image/diane.jpg",
+      name: "Munezero Yvette Diane",
       type: "student",
       comment:
-        "Absolutely! It's a terrific idea to provide a testimonial to an educational consultant encourage them to keep working hard and to show how their efforts have positively influenced many individuals. It might serve as a source of encouragement and gratitude for their commitment to assisting others.",
+        "Absolutely! It's a terrific idea to provide a testimonial to an health consultant encourage them to keep working hard and to show how their efforts have positively influenced many individuals. It might serve as a source of encouragement and gratitude for their commitment to assisting others.",
     },
     {
-        profile: "/image/profile1.jpg",
+        profile: "/image/man2.jpg",
       name: "IRASUBIZA Germain",
       type: "student",
       comment:
-        "I have the utmost gratitude for BrightForth advice and assistance. Their expertise and dedication were crucial in assisting me in getting accepted into the faculty I wanted to attend. Their persistent dedication to assisting students in achieving their educational goals is much appreciated. I'm grateful that you have had such a big impact on my academic career.",
+        "I have the utmost gratitude for ellopharma advice and assistance. Their expertise and dedication were crucial in assisting me in getting accepted into the faculty I wanted to attend. Their persistent dedication to assisting students in achieving their educational goals is much appreciated. I'm grateful that you have had such a big impact on my academic career.",
     },
   ];
   return (

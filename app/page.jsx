@@ -31,7 +31,7 @@ export default function Home() {
         <div className="w-full max-w-7xl flex flex-col gap-[20px] z-20">
           <div className="flex flex-col">
             <div className="flex flex-row items-center gap-[10px] p-2">
-              <span className="text-[14px] text-white">Tel:05777854</span>
+              <span className="text-[14px] text-white">Tel:+25078688704</span>
               <span className="text-[14px] text-white">Email:  <a href="">elliopharma10@gmail.com</a> </span>
             </div>
 
