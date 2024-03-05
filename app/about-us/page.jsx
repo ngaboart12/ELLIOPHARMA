@@ -13,6 +13,10 @@ const AboutUs = () => {
   return (
     <div className="flex flex-col gap-[20px] w-full">
       <div className="px-[10px] md:px-[100px]">
+      <div className="flex flex-row items-center gap-[10px] p-2">
+              <span className="text-[14px] text-black">Tel:05777854</span>
+              <span className="text-[14px] text-black">Email:  <a href="">elliopharma10@gmail.com</a> </span>
+            </div>
         <Navbar />
       </div>
       <div className=" px-[10px] md:px-[100px]  flex flex-col lg:flex-row gap-[10px] w-full py-10">
@@ -72,39 +76,26 @@ const AboutUs = () => {
             inventore facilis blanditiis dolor omnis pariatur, soluta nobis!
           </span>
         </div>
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px]">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px]">
+       
           <div className="flex flex-col gap-[10px]">
-            <div className="w-full h-[40vh] ">
+            <div className="w-full h-[50vh] ">
               <Image alt="photo"
-                src={`/image/teamProfile.webp`}
-                width={500}
-                height={500}
-                className="w-full h-full object-cover rounded-t-[8px]"
-              />
-            </div>
-            <div className="flex flex-col">
-              <h1 className="text-[18px] font-[600]">(doctor name)</h1>
-              <span className="text-[16px] text-gray-500">position</span>
-            </div>
-          </div>
-          <div className="flex flex-col gap-[10px]">
-            <div className="w-full h-[40vh] ">
-              <Image alt="photo"
-                src={`/image/teamProfile.webp`}
+                src={`/image/diane.jpg`}
                 width={500}
                 height={500}
                 className="w-full h-full object-cover rounded-t-[8px] "
               />
             </div>
             <div className="flex flex-col">
-              <h1 className="text-[18px] font-[600]">(doctor name)</h1>
-              <span className="text-[16px] text-gray-500">position</span>
+              <h1 className="text-[18px] font-[600]">Munezero Yvette Diane</h1>
+              <span className="text-[14px] text-gray-500">Managing Director and Responsible Pharmacist.</span>
             </div>
           </div>
           <div className="flex flex-col gap-[10px]">
-            <div className="w-full h-[40vh] ">
+            <div className="w-full h-[50vh] ">
               <Image alt="photo"
-                src={`/image/teamProfile.webp`}
+                src={`/image/man1.jpg`}
                 width={500}
                 height={500}
                 className="w-full h-full object-cover rounded-t-[8px]"
@@ -116,12 +107,12 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="flex flex-col gap-[10px]">
-            <div className="w-full h-[40vh] ">
+            <div className="w-full h-[50vh]  ">
               <Image alt="photo"
-                src={`/image/teamProfile.webp`}
+                src={`/image/man2.jpg`}
                 width={500}
                 height={500}
-                className="w-full h-full object-cover rounded-t-[8px]"
+                className="w-full h-full  object-cover rounded-t-[8px]"
               />
             </div>
             <div className="flex flex-col">

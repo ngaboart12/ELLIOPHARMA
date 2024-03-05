@@ -9,6 +9,10 @@ const Contact = () => {
   return (
     <div className="flex flex-col gap-[40px] overflow-x-hidden">
       <div className="px-[10px] md:px-[100px]">
+      <div className="flex flex-row items-center gap-[10px] p-2">
+              <span className="text-[14px] text-black">Tel:05777854</span>
+              <span className="text-[14px] text-black">Email:  <a href="">elliopharma10@gmail.com</a> </span>
+            </div>
         <Navbar />
       </div>
       <div className="flex flex-row w-full gap-[20px] px-[10px] md:px-[150px]">

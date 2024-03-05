@@ -29,7 +29,14 @@ export default function Home() {
           />
         </div>
         <div className="w-full max-w-7xl flex flex-col gap-[20px] z-20">
+          <div className="flex flex-col">
+            <div className="flex flex-row items-center gap-[10px] p-2">
+              <span className="text-[14px] text-white">Tel:05777854</span>
+              <span className="text-[14px] text-white">Email:  <a href="">elliopharma10@gmail.com</a> </span>
+            </div>
+
           <Navbar color="white" />
+          </div>
           <div className="flex flex-col lg:flex-row items-center  gap-[40px] py-10 ">
             <div className="flex items-center lg:items-start flex-col gap-[20px] p-[10px] w-full lg:w-1/2 item-start">
               <h1 className="text-[32px] text-center lg:text-start md:text-[40px] font-[800] text-white leading-[50px]  ">
@@ -43,12 +50,7 @@ export default function Home() {
                 customers through personalized care and expertise.
               </span>
               <div className="flex flex-col md:flex-row gap-[20px] items-center">
-                <a
-                  href=""
-                  className="px-[20px] hover:opacity-80 transition-all  py-[18px] rounded-md text-[14px] text-white font-[300]  bg-blueColor"
-                >
-                  Make An Appointment
-                </a>
+              
                 <a
                   href="/contact"
                   className="px-[50px] hover:bg-black/40 transition-all  py-[18px] rounded-md text-[14px] text-white font-[300]  border-[1px] border-white/40"
@@ -57,24 +59,24 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="flex relative p-10 lg:p-4 flex-col gap-[20px]  w-full lg:w-1/2 item-start hover:scale-x-110 transition-all duration-700">
+            <div className="flex relative p-10 lg:p-4 flex-col gap-[20px] h-[60vh] w-full lg:w-1/2 item-start hover:scale-x-110 transition-all duration-700">
               <div className="p-6 py-[10px] bg-[#015bb4]/40 backdrop-blur w-[120px] hidden md:flex rounded-md  top-[60px] absolute right-[-10px]">
                 <span className="text-white font-[600]">
-                  3 Years of <span className="font-[200]">experience</span>{" "}
+                  7 Years of <span className="font-[200]">experience</span>{" "}
                 </span>
               </div>
               <div className="p-6 py-[10px] bg-[#ef40b2]/40 backdrop-blur w-[120px] hidden md:flex rounded-md bottom-[60px]  absolute right-[-10px]">
                 <span className="text-white font-[600]">
-                  3 Years of <span className="font-[200]">experience</span>{" "}
+                  7 Years of <span className="font-[200]">experience</span>{" "}
                 </span>
               </div>
               <div className="w-[150px] py-[14px] px-[20px] bg-[#34c5d8]/40 backdrop-blur hidden md:flex rounded-md bottom-[150px]  absolute left-[-10px]">
                 <span className="text-white font-[600]">
-                  3 Years of <span className="font-[200]">experience</span>{" "}
+                  7 Years of <span className="font-[200]">experience</span>{" "}
                 </span>
               </div>
               <Image
-                src="/image/first.jpg"
+                src="/image/second.jpg"
                 width={1000}
                 height={1000}
                 className="w-full h-full object-cover rounded-md   -z-10"
