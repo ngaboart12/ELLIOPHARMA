@@ -25,8 +25,19 @@ const About = () => {
             to ensure you receive the highest quality care tailored to your
             needs.
           </span>
+          <div className="flex flex-row items-center gap-[40px]">
+            <div className="flex flex-col gap-[4px]">
+              <h1 className="text-[20px] font-[700]">7+ years</h1>
+              <span className="text-[16px]">Exprience</span>
+            </div>
+            <div className="flex flex-col gap-[4px]">
+              <h1 className="text-[20px] font-[700]">400+ </h1>
+              <span className="text-[16px]">Served Customers</span>
+            </div>
+          
+          </div>
           <a href="/about-us">
-            <button className="p-4 hover:opacity-80 transition-all bg-blue-600 text-white w-[200px] rounded-[8px] font-[300]">
+            <button className="p-4 hover:opacity-80 transition-all  bg-buttonBack text-white w-[200px] rounded-[16px] font-[300]">
               Learn More
             </button>
           </a>

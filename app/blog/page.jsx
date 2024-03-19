@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Image from "next/image";
 import Footer from "../Components/Footer";
+import blogsData from "../../public/blogs.json";
+
 
 export const metadata = {
   title: "Ellophrama - Blog",
@@ -87,14 +89,11 @@ const Blog = () => {
   return (
     <div className=" w-screen bg-white overflow-x-hidden">
       <div className=" px-[10px] md:px-[100px]">
-      <div className="flex flex-row items-center gap-[10px] p-2">
-              <span className="text-[14px] text-black">Tel:+25078688704</span>
-              <span className="text-[14px] text-black">Email:  <a href="">elliopharma10@gmail.com</a> </span>
-            </div>
+      
 
-        <Navbar color={"black"} back="black" />
+        <Navbar color={"white"} back="white" />
       </div>
-      <div className="flex  flex-col gap-[10px] w-full items-center px-[10px] md:px-[100px] py-10">
+      <div className="flex  flex-col gap-[10px] w-full items-center px-[10px] md:px-[100px] py-20">
         <h1 className="text-[32px] text-blue-500 font-[700]">
           Health Insights Blog
         </h1>
@@ -116,32 +115,61 @@ const Blog = () => {
             <span>Doned</span>
           </div>
         </div> */}
-        <div className=" grid bg-gradient-to-r grid-cols-1 md:grid-cols-3 gap-[50px] w-full py-4 mt-4">
-          {blogs.map((item, index) => {
-            return (
-              <div
-                key={index}
-                className=" p-4 w-full flex flex-col gap-[4px]  rounded-[12px] py-[20px]"
-              >
-                <div className="h-[25vh] w-full   ">
-                 {item.image}
-                </div>
-                <div className="py-1">
-                  <span className="text-black/60 text-[14px] ">
-                    17 june 2024
-                  </span>
-                </div>
-                <h1 className="text-[16px] font-[600]">{item.title}</h1>
-                <span className="text-[14px] text-black/40 leading-5 line-clamp-3">
+        <div className="w-full grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-[20px] py-10">
+        {blogsData.map((item, index) => {
+          return (
+            <div key={index} className="flex flex-col gap-[10px]">
+              <div className="h-[30vh]">
+                <Image
+                  src={item.image}
+                  width={300}
+                  height={200}
+                  className="w-full h-full object-cover rounded-[12px]"
+                />
+              </div>
+              <div className="flex flex-col gap-[4px]">
+                <span className="text-[14px] text-[#797C7F]">{item.date}</span>
+                <h1 className="text-[18px] font-[500] text-black leading-6">
+                  {item.title}
+                </h1>
+                <span className="text-[14px] text-[#797C7F] line-clamp-4">
                   {item.disc}
                 </span>
-                <a href="" className="mr-auto text-[12px] text-blue-600">
-                  Read More
+                <a
+                  href={`/singleblog?id=${item.id}`}
+                  className=" duration-1000 transition-all hover:scale-105  text-[#015BB4] flex flex-row items-center gap-[10px]"
+                >
+                  <span>Read More</span>
+                  <span>
+                    <svg
+                      width="17"
+                      height="14"
+                      viewBox="0 0 17 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.75 7.22559L0.75 7.22559"
+                        stroke="#015BB4"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M9.7002 1.201L15.7502 7.225L9.7002 13.25"
+                        stroke="#015BB4"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
                 </a>
               </div>
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
+      </div>
       </div>
       <Footer />
     </div>

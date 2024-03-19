@@ -7,9 +7,9 @@ const Navbar = ({color,back}) => {
   const [toogleOpen,setToogleOpen] = useState(false)
 
   return (
-    <div className={`w-full border-b border-${color}/40 bg-transparent flex felx-row justify-between items-center`}>
+    <div className={`w-full  bg-[#015BB4]/80 fixed left-0 z-40 px-[40px] py-[10px] flex felx-row justify-between items-center`}>
       <a href="/" >
-        <div className='w-[100px] h-[100px]'>
+        <div className='w-[40px] '>
 
           <Image src="/image/logo.png" alt='logo' width={300} height={300} className='w-full h-full object-cover' />
         </div>
@@ -19,6 +19,7 @@ const Navbar = ({color,back}) => {
               <a href="/about-us">About</a>
               <a href="/blog">Blog</a>
               <a href="/contact">Contact</a>
+              <a href="" className='border-[1px] rounded-[16px] bg-[#015BB4] px-[20px] py-[10px]'>Get In Touch</a>
             </div>
             <div className='flex md:hidden cursor-pointer' onClick={()=> setToogleOpen(!toogleOpen)}>
             <IoReorderThreeSharp size={35} color={color} />

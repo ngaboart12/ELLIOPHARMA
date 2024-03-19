@@ -9,20 +9,17 @@ const Contact = () => {
   return (
     <div className="flex flex-col gap-[40px] overflow-x-hidden">
       <div className="px-[10px] md:px-[100px]">
-      <div className="flex flex-row items-center gap-[10px] p-2">
-              <span className="text-[14px] text-white">Tel:+25078688704</span>
-              <span className="text-[14px] text-white">Email:  <a href="">elliopharma10@gmail.com</a> </span>
-            </div>
 
-        <Navbar />
+
+        <Navbar color={`white`} back={`white`} />
       </div>
-      <div className="flex flex-row w-full gap-[20px] px-[10px] md:px-[150px]">
-        <div className="w-full md:w-1/2">
-          <h1 className="text-[18px] font-[700] w-[150px] border-b-2 border-blue-500 uppercase">
+      <div className="flex flex-col  md:flex-row w-full py-10 gap-[20px] px-[10px] md:px-[150px]">
+        <div className="w-full flex md:items-start items-center md:justify-start justify-center md:w-1/2">
+          <h1 className="text-[18px]  font-[700] w-[150px] border-b-2 border-blue-500 uppercase">
             Contact Us
           </h1>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 text-center md:text-start">
           Ready to experience personalized pharmacy care? Get in touch with us
           today to make an appointment or learn more about our services. Your
           health and well-being are our top priorities.

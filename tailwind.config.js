@@ -14,8 +14,9 @@ module.exports = {
       },
       colors:{
         background: "#031B4E",
-        blueColor: "#173C96",
-        violetColor: "#EB006F"
+        blueColor: "#015BB4",
+        violetColor: "#EB006F",
+        buttonBack: "#015BB4"
       }
     },
   },

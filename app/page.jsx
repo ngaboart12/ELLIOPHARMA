@@ -11,6 +11,9 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import WhychooseUs from "./Components/WhychooseUs";
 import Form from "./Components/Form";
+import Unlock from "./Components/Unlock";
+import CustomerStories from "./Components/CustomerStories";
+import Blogs from "./Components/Blogs";
 export const metadata = {
   title: "Ellophrama - Home",
   description: "ellophran Home",
@@ -19,10 +22,11 @@ export const metadata = {
 export default function Home() {
   return (
     <main className="overflow-x-hidden  ">
-      <div className="w-full px-[10px] relative  md:px-[100px] justify-center flex bg-gradient-to-tr  from-background to-[#015bb4] min-h-[100vh]">
-        <div className="w-full h-full absolute z-10 opacity-[3%] ">
+      <div className="w-full px-[10px] relative  md:px-[100px] justify-center flex bg-gradient-to-tr  min-h-[100vh]">
+        <div className="w-full h-full bg-black/70 absolute z-20"></div>
+        <div className="w-full h-full absolute z-10">
           <Image
-            src="/image/hero.jpg"
+            src="/image/first.jpg"
             width={1000}
             height={1000}
             className="w-full h-full object-cover"
@@ -30,57 +34,30 @@ export default function Home() {
         </div>
         <div className="w-full max-w-7xl flex flex-col gap-[20px] z-20">
           <div className="flex flex-col">
-            <div className="flex flex-row items-center gap-[10px] p-2">
+            {/* <div className="flex flex-row items-center gap-[10px] p-2">
               <span className="text-[14px] text-white">Tel:+25078688704</span>
               <span className="text-[14px] text-white">Email:  <a href="">elliopharma10@gmail.com</a> </span>
-            </div>
+            </div> */}
 
-          <Navbar color="white" />
+            <Navbar color="white" />
           </div>
-          <div className="flex flex-col lg:flex-row items-center  gap-[40px] py-10 ">
-            <div className="flex items-center lg:items-start flex-col gap-[20px] p-[10px] w-full lg:w-1/2 item-start">
-              <h1 className="text-[32px] text-center lg:text-start md:text-[40px] font-[800] text-white leading-[50px]  ">
+          <div className="flex h-full flex-col lg:flex-row justify-center md:items-center   gap-[40px]  ">
+            <div className="flex items-center lg:items-start flex-col  p-[10px]  item-start">
+              <h1 className="text-[24px] text-center lg:text-start  font-[800] text-white leading-[50px]  ">
                 Welcome to Elliopharma
               </h1>
-              <span className="text-[#c5c5c5] text-center lg:text-start font-[300]  max-w-[600px]">
-                your trusted pharmacy located in Bugesera, Nyamata. At
-                Elliopharma, we are committed to providing exceptional
-                pharmaceutical services to our community. Our mission is to make
-                health care better together, ensuring the well-being of our
-                customers through personalized care and expertise.
+              <span className="text-white font-[800] text-[40px] text-center lg:text-start leading-10   max-w-[800px]">
+                we are committed <br /> to providing exceptional pharmaceutical
+                services to our community.
               </span>
-              <div className="flex flex-col md:flex-row gap-[20px] items-center">
-              
+              <div className="flex flex-col md:flex-row gap-[20px] items-center py-[20px]">
                 <a
                   href="/contact"
-                  className="px-[50px] hover:bg-black/40 transition-all  py-[18px] rounded-md text-[14px] text-white font-[300]  border-[1px] border-white/40"
+                  className="px-[60px] rounded-[16px] bg-buttonBack transition-all  py-[14px]  text-[14px] text-white font-[300]  border-[1px] border-white/40"
                 >
                   Get In Touch
                 </a>
               </div>
-            </div>
-            <div className="flex relative p-10 lg:p-4 flex-col gap-[20px] h-[60vh] w-full lg:w-1/2 item-start hover:scale-x-110 transition-all duration-700">
-              <div className="p-6 py-[10px] bg-[#015bb4]/40 backdrop-blur w-[120px] hidden md:flex rounded-md  top-[60px] absolute right-[-10px]">
-                <span className="text-white font-[600]">
-                  7 Years of <span className="font-[200]">experience</span>{" "}
-                </span>
-              </div>
-              <div className="p-6 py-[10px] bg-[#ef40b2]/40 backdrop-blur w-[120px] hidden md:flex rounded-md bottom-[60px]  absolute right-[-10px]">
-                <span className="text-white font-[600]">
-                  7 Years of <span className="font-[200]">experience</span>{" "}
-                </span>
-              </div>
-              <div className="w-[150px] py-[14px] px-[20px] bg-[#34c5d8]/40 backdrop-blur hidden md:flex rounded-md bottom-[150px]  absolute left-[-10px]">
-                <span className="text-white font-[600]">
-                  7 Years of <span className="font-[200]">experience</span>{" "}
-                </span>
-              </div>
-              <Image
-                src="/image/second.jpg"
-                width={1000}
-                height={1000}
-                className="w-full h-full object-cover rounded-md   -z-10"
-              />
             </div>
           </div>
         </div>
@@ -89,7 +66,7 @@ export default function Home() {
         <h1 className="text-[#5e5e5e] max-w-[300px] text-center text-[18px] font-[700]">
           Trust By Beloved Partners and Customers
         </h1>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-[20px] items-center  w-full">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-[10px] items-center  w-full">
           <div className="w-[100px] p-2  rounded-[4px]">
             <Image
               src="/image/RSSB.jpg"
@@ -158,32 +135,38 @@ export default function Home() {
         </div>
       </div>
       <About />
+  
 
-      <WhychooseUs />
-      <div className="px-[10px] bg-gradient-to-tr items-center md:items-start from-background to-[#015bb4] w-full md:px-[100px] flex flex-col  gap-[40px] py-20">
-        <h1 className="text-[32px] font-[700] text-white">Our Services</h1>
+      <Unlock/>
+
+    
+   
+
+     
+      <div className="px-[10px] md:px-[100px] bg-gradient-to-tr items-center md:items-start  w-full  flex flex-col  gap-[40px] pb-10">
+        <h1 className="text-[32px] font-[700] text-blueColor">Our Services</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px] gap-y-[40px]">
           <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
-            <div className="w-14 h-14 flex items-center justify-center border  rounded-full">
-              <FaTablets size={30} color="white" />
+            <div className="w-14 h-14  flex items-center justify-center border-[1px] border-blueColor  rounded-full">
+              <FaTablets size={30} color="#015BB4" />
             </div>
-            <h1 className="text-[18px] font-[700] text-white">
+            <h1 className="text-[18px] font-[700] text-blueColor">
               Medication Dispensing
             </h1>
-            <span className="text-[#b5b5b5] text-center md:text-start font-[300]">
+            <span className="text-black text-center md:text-start font-[300]">
               Accurate and efficient dispensing of prescribed medications to
               ensure patients receive the right treatments for their health
               needs.
             </span>
           </div>
           <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
-            <div className="w-14 h-14 flex items-center justify-center bg-white/80 rounded-full">
-              <FaUserDoctor size={30} color="blue" />
+            <div className="w-14 h-14 flex items-center justify-center bg-blueColor/40 rounded-full">
+              <FaUserDoctor size={30} color="#015BB4" />
             </div>
-            <h1 className="text-[18px] font-[700] text-white">
+            <h1 className="text-[18px] font-[700] text-blueColor">
               Health Consultation
             </h1>
-            <span className="text-[#b5b5b5] text-center md:text-start  font-[300]">
+            <span className="text-black text-center md:text-start  font-[300]">
               Personalized advice from our experienced pharmacists on medication
               usage, potential side effects, and general health queries.
             </span>
@@ -192,23 +175,23 @@ export default function Home() {
             <div className="w-14 h-14 flex items-center justify-center border  rounded-full">
               <TbFirstAidKit size={30} color="white" />
             </div>
-            <h1 className="text-[18px] font-[700] text-white">
+            <h1 className="text-[18px] font-[700] text-blueColor">
               First Aid Supplies
             </h1>
-            <span className="text-[#b5b5b5] text-center md:text-start  font-[300]">
+            <span className="text-black text-center md:text-start  font-[300]">
               Accessible first aid essentials to address minor injuries and
               emergencies. We provide a range of quality first aid products for
               your safety.
             </span>
           </div>
           <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
-            <div className="w-14 h-14 flex items-center justify-center bg-white/80 rounded-full">
-              <FaHeartbeat size={30} color="blue" />
+            <div className="w-14 h-14 flex items-center justify-center bg-blueColor/40 rounded-full">
+              <FaHeartbeat size={30} color="#015BB4" />
             </div>
-            <h1 className="text-[18px] font-[700] text-white">
+            <h1 className="text-[18px] font-[700] text-blueColor">
               Heart Health Monitoring
             </h1>
-            <span className="text-[#b5b5b5] text-center md:text-start  font-[300]">
+            <span className="text-black text-center md:text-start  font-[300]">
               Regular blood pressure checks and monitoring services to promote
               heart health and prevent cardiovascular issues.
             </span>
@@ -217,28 +200,32 @@ export default function Home() {
             <div className="w-14 h-14 flex items-center justify-center border  rounded-full">
               <TbVaccine size={30} color="white" />
             </div>
-            <h1 className="text-[18px] font-[700] text-white">
+            <h1 className="text-[18px] font-[700] text-blueColor">
               Vaccination Services
             </h1>
-            <span className="text-[#b5b5b5] text-center md:text-start  font-[300]">
+            <span className="text-black text-center md:text-start  font-[300]">
               Convenient and reliable vaccination services to protect against
               various diseases. Stay up-to-date on essential immunizations.
             </span>
           </div>
           <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
-            <div className="w-14 h-14 flex items-center justify-center bg-white/80 rounded-full">
-              <MdOutlineMedicationLiquid size={30} color="blue" />
+            <div className="w-14 h-14 flex items-center justify-center bg-blueColor/40 rounded-full">
+              <MdOutlineMedicationLiquid size={30} color="#015BB4" />
             </div>
-            <h1 className="text-[18px] font-[700] text-white">
+            <h1 className="text-[18px] font-[700] text-blueColor">
               Medication Counseling
             </h1>
-            <span className="text-[#b5b5b5] text-center md:text-start  font-[300]">
+            <span className="text-black text-center md:text-start  font-[300]">
               In-depth counseling on medication usage, potential interactions,
               and lifestyle adjustments to optimize treatment outcomes.
             </span>
           </div>
         </div>
       </div>
+
+      <CustomerStories/>
+
+      <Blogs/>
 
       <div className="py-10 gap-[40px] flex items-center md:items-start flex-col px-[10px] md:px-[100px] ">
         <h1 className="text-[24px] font-[800] text-[#015bb4]">Get In Touch</h1>
