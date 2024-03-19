@@ -45,7 +45,7 @@ const CustomerStories = () => {
             </span>
           </div>
           <h1 className="text-[28px] text-center md:text-start max-w-[300px] leading-8 font-[800] text-[#015BB4]">
-            Discover the Impact We've Made"
+            Discover the Impact We have Made
           </h1>
         </div>
         <div className="w-full text-center md:text-start sm:w-1/2">

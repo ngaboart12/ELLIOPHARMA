@@ -15,7 +15,7 @@ const Unlock = () => {
 
       <div className=" w-[80%] px-[10px] md:px-[100px] rounded-[32px] bottom-[0px] p-10 flex flex-col gap-[10px] bg-gradient-to-tr from-[#031B4E] to-[#015BB4] z-10">
         <h1 className=" text-center md:text-start text-[18px] md:text-[28px] font-[800] uppercase text-white">
-          Unlock the Benefits of Choosing Our Pharmacy for Your Health Needs"
+          Unlock the Benefits of Choosing Our Pharmacy for Your Health Needs
         </h1>
         <span className="text-white text-[14px] text-center md:text-start font-[300]">
           At Elliopharma, we are dedicated to providing top-quality
