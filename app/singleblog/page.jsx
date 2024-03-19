@@ -8,12 +8,13 @@ import { useSearchParams } from 'next/navigation'
 
 import blogsData from "../../public/blogs.json"
 const SingleBlog = () => {
-  const searchParams = useSearchParams()
-  let id = searchParams.get('id')
-  id = parseInt(id,10)
-  console.log(id)
+  const searchParams = useSearchParams();
+  let id = searchParams.get("id");
+  id = parseInt(id)
 
-  const singleBlog = blogsData.filter(item=> item.id=== id )
+  
+ 
+  const singleBlog = blogsData.filter(item=> item.id===id  )
   return (
     <div className="">
       <Navbar color={`white`} />
@@ -26,6 +27,7 @@ const SingleBlog = () => {
      
         <div className="h-[50vh] w-full">
           <Image
+          alt="Blog Image"
             src={item.image}
             width={4000}
             height={400}
