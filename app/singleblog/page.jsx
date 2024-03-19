@@ -11,6 +11,7 @@ const SingleBlog = () => {
   const searchParams = useSearchParams();
   let id = searchParams.get("id");
   id = parseInt(id)
+  // h
 
   
  
