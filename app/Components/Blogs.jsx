@@ -32,7 +32,7 @@ const Blogs = () => {
                   {item.disc}
                 </span>
                 <a
-                  href={`/singleblog?id=${item.id}`}
+                  href={`/singleblog/${item.id}`}
                   className=" duration-1000 transition-all hover:scale-105  text-[#015BB4] flex flex-row items-center gap-[10px]"
                 >
                   <span>Read More</span>

@@ -1,17 +1,17 @@
 "use client"
 import React from "react";
-import Navbar from "../Components/Navbar";
+import Navbar from "../../Components/Navbar";
 import Image from "next/image";
-import Footer from "../Components/Footer";
-import { useSearchParams } from 'next/navigation'
+import Footer from "../../Components/Footer";
+import { useParams } from 'next/navigation'
 
 
-import blogsData from "../../public/blogs.json"
+import blogsData from "../../../public/blogs.json"
 const SingleBlog = () => {
-  const searchParams = useSearchParams();
-  let id = searchParams.get("id");
+  const paramas = useParams();
+  let id = paramas.id
   id = parseInt(id)
-  // h
+
 
   
  
