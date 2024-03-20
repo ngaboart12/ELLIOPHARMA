@@ -17,7 +17,7 @@ const AboutUs = () => {
 
         <Navbar color={`white`} back={`white`} />
       </div>
-      <div className=" px-[10px] md:px-[100px]  flex flex-col lg:flex-row gap-[10px] w-full py-10">
+      <div className=" px-[10px] md:px-[100px]  flex flex-col lg:flex-row gap-[10px] w-full py-20">
         <div className="flex flex-col w-full lg:w-1/2 gap-[20px]">
           <h1 className="p-2 max-w-[100px] text-white bg-blueColor">
             About us

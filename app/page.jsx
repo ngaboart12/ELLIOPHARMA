@@ -38,6 +38,9 @@ export default function Home() {
               <span className="text-[14px] text-white">Tel:+25078688704</span>
               <span className="text-[14px] text-white">Email:  <a href="">elliopharma10@gmail.com</a> </span>
             </div> */}
+            <div>
+             
+            </div>
 
             <Navbar color="white" />
           </div>
@@ -135,14 +138,9 @@ export default function Home() {
         </div>
       </div>
       <About />
-  
 
-      <Unlock/>
+      <Unlock />
 
-    
-   
-
-     
       <div className="px-[10px] md:px-[100px] bg-gradient-to-tr items-center md:items-start  w-full  flex flex-col  gap-[40px] pb-10">
         <h1 className="text-[32px] font-[700] text-blueColor">Our Services</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px] gap-y-[40px]">
@@ -154,9 +152,11 @@ export default function Home() {
               Medication Dispensing
             </h1>
             <span className="text-black text-center md:text-start font-[300]">
-              Accurate and efficient dispensing of prescribed medications to
-              ensure patients receive the right treatments for their health
-              needs.
+              We specialize in accurate and efficient dispensing of prescribed
+              medications, ensuring that patients receive the precise treatments
+              tailored to their health needs. Our trained pharmacists
+              meticulously handle each prescription, guaranteeing the correct
+              dosage and medication type to promote optimal health outcomes
             </span>
           </div>
           <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
@@ -167,8 +167,11 @@ export default function Home() {
               Health Consultation
             </h1>
             <span className="text-black text-center md:text-start  font-[300]">
-              Personalized advice from our experienced pharmacists on medication
-              usage, potential side effects, and general health queries.
+              Receive personalized advice from our experienced pharmacists
+              regarding medication usage, potential side effects, and any
+              general health inquiries you may have. Our pharmacists take the
+              time to understand your unique health concerns and provide
+              tailored recommendations to support your well-being.
             </span>
           </div>
           <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
@@ -179,9 +182,11 @@ export default function Home() {
               First Aid Supplies
             </h1>
             <span className="text-black text-center md:text-start  font-[300]">
-              Accessible first aid essentials to address minor injuries and
-              emergencies. We provide a range of quality first aid products for
-              your safety.
+              Access high-quality first aid essentials for addressing minor
+              injuries and emergencies promptly. Our range of first aid products
+              ensures that you are equipped with the necessary supplies to
+              handle unexpected situations effectively, promoting safety and
+              peace of mind.
             </span>
           </div>
           <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
@@ -192,8 +197,11 @@ export default function Home() {
               Heart Health Monitoring
             </h1>
             <span className="text-black text-center md:text-start  font-[300]">
-              Regular blood pressure checks and monitoring services to promote
-              heart health and prevent cardiovascular issues.
+              Take proactive steps towards maintaining heart health with our
+              regular blood pressure checks and monitoring services. Our skilled
+              professionals provide comprehensive assessments to identify
+              potential cardiovascular issues early, empowering you to
+              prioritize your heart health and well-being.
             </span>
           </div>
           <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
@@ -204,8 +212,11 @@ export default function Home() {
               Vaccination Services
             </h1>
             <span className="text-black text-center md:text-start  font-[300]">
-              Convenient and reliable vaccination services to protect against
-              various diseases. Stay up-to-date on essential immunizations.
+              Ensure protection against various diseases with our convenient and
+              reliable vaccination services. Stay up-to-date on essential
+              immunizations, administered by trained healthcare professionals in
+              a safe and comfortable environment, safeguarding your health and
+              that of your loved ones.
             </span>
           </div>
           <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
@@ -216,16 +227,20 @@ export default function Home() {
               Medication Counseling
             </h1>
             <span className="text-black text-center md:text-start  font-[300]">
-              In-depth counseling on medication usage, potential interactions,
-              and lifestyle adjustments to optimize treatment outcomes.
+              Benefit from in-depth counseling sessions on medication usage,
+              potential interactions, and lifestyle adjustments aimed at
+              optimizing treatment outcomes. Our pharmacists offer comprehensive
+              guidance and support, empowering you to make informed decisions
+              regarding your medication regimen for improved health and quality
+              of life.
             </span>
           </div>
         </div>
       </div>
 
-      <CustomerStories/>
+      <CustomerStories />
 
-      <Blogs/>
+      <Blogs />
 
       <div className="py-10 gap-[40px] flex items-center md:items-start flex-col px-[10px] md:px-[100px] ">
         <h1 className="text-[24px] font-[800] text-[#015bb4]">Get In Touch</h1>

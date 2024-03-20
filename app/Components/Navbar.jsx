@@ -7,7 +7,20 @@ const Navbar = ({color,back}) => {
   const [toogleOpen,setToogleOpen] = useState(false)
 
   return (
-    <div className={`w-full  bg-[#015BB4]/80 fixed left-0 z-40 px-[40px] py-[10px] flex felx-row justify-between items-center`}>
+    <div className='fixed left-0 z-40 w-full'>
+      <div className='px-[40px] py-[2px] bg-white flex flex-row gap-[10px]'>
+        <div className='flex flex-row gap-[4px] text-[12px]'>
+          <span>TEL:</span>
+          <span>+25078688704</span>
+        </div>
+        <div className='flex flex-row gap-[4px] text-[12px]'>
+          <span>EMAIL:</span>
+          <span>elliopharma10@gmail.com</span>
+        </div>
+      </div>
+
+  
+    <div className={`w-full  bg-[#015BB4]/80  px-[40px]  py-[10px] flex felx-row justify-between items-center`}>
       <a href="/" >
         <div className='w-[40px] '>
 
@@ -24,7 +37,7 @@ const Navbar = ({color,back}) => {
             <div className='flex md:hidden cursor-pointer' onClick={()=> setToogleOpen(!toogleOpen)}>
             <IoReorderThreeSharp size={35} color={color} />
             </div>
-            <div className={` absolute flex  transition-all flex-col p-10 bg-blue-600 ${toogleOpen ? "right-0 flex" : "right-[-200vh] hidden" }  top-16 md:hidden`}>
+            <div className={` absolute flex  transition-all flex-col p-10 bg-blue-600 ${toogleOpen ? "right-0 flex" : "right-[-200vh] hidden" }  top-20 md:hidden`}>
               <div className='flex text-white flex-col text-[18px] gap-[20px]'>
               <a href="/">Home</a>
               <a href="/about-us">About</a>
@@ -34,6 +47,7 @@ const Navbar = ({color,back}) => {
               </div>
             </div>
 
+          </div>
           </div>
   )
 }

@@ -13,7 +13,7 @@ const Contact = () => {
 
         <Navbar color={`white`} back={`white`} />
       </div>
-      <div className="flex flex-col  md:flex-row w-full py-10 gap-[20px] px-[10px] md:px-[150px]">
+      <div className="flex flex-col  md:flex-row w-full py-20 gap-[20px] px-[10px] md:px-[150px]">
         <div className="w-full flex md:items-start items-center md:justify-start justify-center md:w-1/2">
           <h1 className="text-[18px]  font-[700] w-[150px] border-b-2 border-blue-500 uppercase">
             Contact Us

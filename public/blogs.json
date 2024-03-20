@@ -3,42 +3,28 @@
         "id":1,
         "image": "/image/first.jpg",
         "title": "Exploring the Role of Pharmacists in Patient Care",
-        "disc": "First time to conduct meetings in English - Most of the students were shy but left the meeting place positively and ready to practice English at school to be able to interact with ASEF staff and interns in April 2024.",
+        "disc": "At Elliopharma, we understand the pivotal role pharmacists play in patient care. In our ongoing program, we delve into the multifaceted responsibilities of pharmacists in ensuring the well-being of patients. Through informative sessions and interactive workshops, we explore topics such as medication management, patient counseling, and the integration of pharmaceutical care into healthcare systems. By shedding light on the indispensable contributions of pharmacists, we aim to foster a deeper understanding of their role in promoting positive health outcomes within the Bugesera community and beyond.",
         "date": "Feb 14, 2024"
     },
     {
         "id":2,
         "image": "/image/blog1.png",
         "title": "Understanding the Journey of Medication Management",
-        "disc": "First time to conduct meetings in English - Most of the students were shy but left the meeting place positively and ready to practice English at school to be able to interact with ASEF staff and interns in April 2024.",
+        "disc": " Medication management is a crucial aspect of healthcare, and at Elliopharma, we are committed to enhancing understanding and awareness in this area. In our program, we provide insights into the journey of medication management, covering aspects such as medication adherence, proper usage, and potential interactions. Through informative sessions and practical demonstrations, we empower individuals to take control of their health and make informed decisions regarding their medications. By equipping our community with knowledge and resources, we strive to promote safe and effective medication practices for better health outcomes.",
         "date": "Feb 14, 2024"
     },
     {
         "id":3,
-        "image": "/image/fourth.jpg",
-        "title": "Understanding the Journey of Medication Management",
-        "disc": "First time to conduct meetings in English - Most of the students were shy but left the meeting place positively and ready to practice English at school to be able to interact with ASEF staff and interns in April 2024.",
+        "image": "/image/accessibility.jpg",
+        "title": "Enhancing Healthcare Accessibility and Equity",
+        "disc": " Access to quality healthcare is essential for the well-being of any community, and at Elliopharma, we are dedicated to promoting healthcare accessibility and equity. In our program, we address barriers to healthcare access and explore strategies to improve inclusivity and affordability. Through collaborative efforts with local healthcare providers and community organizations, we identify areas for improvement and implement initiatives to bridge gaps in healthcare services. By advocating for equitable healthcare policies and providing support to underserved populations, we aim to create a healthier and more equitable society for all residents of Bugesera and Rwanda.",
         "date": "Feb 14, 2024"
     },
     {
         "id":4,
-        "image": "/image/second.jpg",
-        "title": "Understanding the Journey of Medication Management",
-        "disc": "First time to conduct meetings in English - Most of the students were shy but left the meeting place positively and ready to practice English at school to be able to interact with ASEF staff and interns in April 2024.",
-        "date": "Feb 14, 2024"
-    },
-    {
-        "id":5,
-        "image": "/image/first.jpg",
-        "title": "Understanding the Journey of Medication Management",
-        "disc": "First time to conduct meetings in English - Most of the students were shy but left the meeting place positively and ready to practice English at school to be able to interact with ASEF staff and interns in April 2024.",
-        "date": "Feb 14, 2024"
-    },
-    {
-        "id":6,
-        "image": "/image/first.jpg",
-        "title": "Understanding the Journey of Medication Management",
-        "disc": "First time to conduct meetings in English - Most of the students were shy but left the meeting place positively and ready to practice English at school to be able to interact with ASEF staff and interns in April 2024.",
+        "image": "/image/womenHealth.jpg",
+        "title": "Empowering Women's Health and Wellness",
+        "disc": "At Elliopharma, we recognize the importance of prioritizing women's health and wellness. In our program, we focus on empowering women to take charge of their health through education and support. Through informative sessions, workshops, and outreach programs, we address key health issues affecting women, including reproductive health, maternal care, and preventive screenings. By providing access to resources, promoting awareness, and fostering a supportive community, we aim to empower women to make informed decisions about their health and well-being. Through our commitment to women's health, we strive to create a healthier and more resilient community in Bugesera and beyond        .",
         "date": "Feb 14, 2024"
     }
 ]

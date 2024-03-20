@@ -12,27 +12,27 @@ const CustomerStories = () => {
   const testimon = [
     {
       profile: "/image/woman2.jpg",
-      name: "Dr Mugeni Adeline ",
+      name: "Dr. Mugeni Adeline ",
       place: "Bugesera, Rwanda",
-      type: "student",
+      type: "",
       comment:
-        "For me, working with your educational consultant changed everything. Their advice and assistance were quite helpful to me during my academic career. I liked that they were always problem-solving and that I never felt guilty for whatever difficulties I encountered. I successfully and confidently made my way through my academics because of their knowledge.",
+        "Working with Elliopharma changed everything for me. Their advice and assistance were quite helpful during my academic career.",
     },
     {
       profile: "/image/diane.jpg",
       name: "Munezero Yvette Diane",
       place: "Bugesera, Rwanda",
-      type: "student",
+      type: "",
       comment:
-        "Absolutely! It's a terrific idea to provide a testimonial to an health consultant encourage them to keep working hard and to show how their efforts have positively influenced many individuals. It might serve as a source of encouragement and gratitude for their commitment to assisting others.",
+        "It is a terrific idea to provide a testimonial to a health consultant to encourage them to keep working hard.",
     },
     {
       profile: "/image/man2.jpg",
       name: "IRASUBIZA Germain",
       place: "Bugesera, Rwanda",
-      type: "student",
+      type: "",
       comment:
-        "I have the utmost gratitude for ellopharma advice and assistance. Their expertise and dedication were crucial in assisting me in getting accepted into the faculty I wanted to attend. Their persistent dedication to assisting students in achieving their educational goals is much appreciated. I'm grateful that you have had such a big impact on my academic career.",
+        "I have the utmost gratitude for Elliopharma's advice and assistance. Their expertise and dedication were crucial in assisting me in getting accepted into the faculty I wanted to attend.",
     },
   ];
   return (
@@ -50,10 +50,8 @@ const CustomerStories = () => {
         </div>
         <div className="w-full text-center md:text-start sm:w-1/2">
           <span>
-            Explore firsthand accounts of our transformative impact on community
-            individuals, showcasing our commitment to excellence and providing
-            exceptional support, guidance, and care, reflecting our unwavering
-            dedication to serving customers and making a meaningful difference.
+            Discover the transformative impact we've made on individuals in the
+            Bugesera community and beyond
           </span>
         </div>
       </div>
@@ -89,7 +87,7 @@ const CustomerStories = () => {
         >
           {testimon.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="flex bg-white rounded-[24px]  flex-col gap-4 md:flex-row ">
+              <div className="flex bg-white rounded-[24px] min-h-[40vh]  flex-col gap-4 md:flex-row ">
                 <div className="flex flex-col md:flex-row items-center gap-4 w-full  p-6 rounded-lg">
                   <div className="w-[130px] h-[100px] ">
                     <Image
@@ -138,7 +136,7 @@ const CustomerStories = () => {
                           />
                         </svg>
                       </div>
-                        <span className="text-[#9D9D9D]">{item.place}</span>
+                      <span className="text-[#9D9D9D]">{item.place}</span>
                     </div>
                   </div>
                 </div>
