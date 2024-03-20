@@ -50,7 +50,7 @@ const CustomerStories = () => {
         </div>
         <div className="w-full text-center md:text-start sm:w-1/2">
           <span>
-            Discover the transformative impact we've made on individuals in the
+            Discover the transformative impact we have made on individuals in the
             Bugesera community and beyond
           </span>
         </div>
