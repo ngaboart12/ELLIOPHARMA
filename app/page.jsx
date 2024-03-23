@@ -80,7 +80,7 @@ export default function Home() {
           </div>
           <div className="w-[100px] p-2  rounded-[4px]">
             <Image
-              src="/image/MMI2.png"
+              src="/image/mmi2.png"
               width={500}
               height={500}
               className="w-full h-full object-cover"
