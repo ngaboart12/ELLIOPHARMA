@@ -80,7 +80,7 @@ export default function Home() {
           </div>
           <div className="w-[100px] p-2  rounded-[4px]">
             <Image
-              src="/image/MMI.png"
+              src="/image/MMI2.png"
               width={500}
               height={500}
               className="w-full h-full object-cover"
@@ -143,8 +143,8 @@ export default function Home() {
 
       <div className="px-[10px] md:px-[100px] bg-gradient-to-tr items-center md:items-start  w-full  flex flex-col  gap-[40px] pb-10">
         <h1 className="text-[32px] font-[700] text-blueColor">Our Services</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px] gap-y-[40px]">
-          <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-[20px] gap-y-[40px]">
+          <div className="flex flex-col items-center md:items-start gap-[10px] w-full">
             <div className="w-14 h-14  flex items-center justify-center border-[1px] border-blueColor  rounded-full">
               <FaTablets size={30} color="#015BB4" />
             </div>
@@ -159,7 +159,7 @@ export default function Home() {
               dosage and medication type to promote optimal health outcomes
             </span>
           </div>
-          <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
+          <div className="flex flex-col items-center md:items-start gap-[10px] w-full">
             <div className="w-14 h-14 flex items-center justify-center bg-blueColor/40 rounded-full">
               <FaUserDoctor size={30} color="#015BB4" />
             </div>
@@ -174,7 +174,7 @@ export default function Home() {
               tailored recommendations to support your well-being.
             </span>
           </div>
-          <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
+          <div className="flex flex-col items-center md:items-start gap-[10px] w-full">
             <div className="w-14 h-14 flex items-center justify-center border  rounded-full">
               <TbFirstAidKit size={30} color="white" />
             </div>
@@ -189,7 +189,7 @@ export default function Home() {
               peace of mind.
             </span>
           </div>
-          <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
+          {/* <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
             <div className="w-14 h-14 flex items-center justify-center bg-blueColor/40 rounded-full">
               <FaHeartbeat size={30} color="#015BB4" />
             </div>
@@ -203,8 +203,8 @@ export default function Home() {
               potential cardiovascular issues early, empowering you to
               prioritize your heart health and well-being.
             </span>
-          </div>
-          <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
+          </div> */}
+          {/* <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
             <div className="w-14 h-14 flex items-center justify-center border  rounded-full">
               <TbVaccine size={30} color="white" />
             </div>
@@ -218,8 +218,8 @@ export default function Home() {
               a safe and comfortable environment, safeguarding your health and
               that of your loved ones.
             </span>
-          </div>
-          <div className="flex flex-col items-center md:items-start gap-[10px] max-w-[450px]">
+          </div> */}
+          <div className="flex flex-col items-center md:items-start gap-[10px] w-full">
             <div className="w-14 h-14 flex items-center justify-center bg-blueColor/40 rounded-full">
               <MdOutlineMedicationLiquid size={30} color="#015BB4" />
             </div>
