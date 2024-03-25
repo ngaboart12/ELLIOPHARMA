@@ -101,7 +101,7 @@ const AboutUs = () => {
             </div>
             <div className="flex flex-col">
               <h1 className="text-[18px] font-[600]">Dr Mugeni Adeline</h1>
-              <span className="text-[16px] text-gray-500">position</span>
+              <span className="text-[16px] text-gray-500"></span>
             </div>
           </div>
           <div className="flex flex-col gap-[10px]">
@@ -128,8 +128,8 @@ const AboutUs = () => {
               />
             </div>
             <div className="flex flex-col">
-              <h1 className="text-[18px] font-[600]">(doctor name)</h1>
-              <span className="text-[16px] text-gray-500">position</span>
+              <h1 className="text-[18px] font-[600]">Ntabanganyimana Valense</h1>
+              <span className="text-[16px] text-gray-500"></span>
             </div>
           </div>
         </div>
