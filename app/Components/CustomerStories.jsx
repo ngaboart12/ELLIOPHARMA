@@ -28,7 +28,7 @@ const CustomerStories = () => {
     },
     {
       profile: "/image/man2.jpg",
-      name: "IRASUBIZA Germain",
+      name: "Ntabanganyimana Valense",
       place: "Bugesera, Rwanda",
       type: "",
       comment:

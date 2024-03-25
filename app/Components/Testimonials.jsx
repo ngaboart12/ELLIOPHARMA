@@ -30,7 +30,7 @@ function Testimonials() {
     },
     {
         profile: "/image/man2.jpg",
-      name: "IRASUBIZA Germain",
+      name: "Ntabanganyimana Valense",
       type: "student",
       comment:
         "I have the utmost gratitude for ellopharma advice and assistance. Their expertise and dedication were crucial in assisting me in getting accepted into the faculty I wanted to attend. Their persistent dedication to assisting students in achieving their educational goals is much appreciated. I'm grateful that you have had such a big impact on my academic career.",
