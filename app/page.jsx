@@ -23,10 +23,10 @@ export default function Home() {
   return (
     <main className="overflow-x-hidden  ">
       <div className="w-full px-[10px] relative  md:px-[100px] justify-center flex bg-gradient-to-tr  min-h-[100vh]">
-        <div className="w-full h-full bg-black/70 absolute z-20"></div>
+        <div className="w-full h-full bg-black/90 absolute z-20"></div>
         <div className="w-full h-full absolute z-10">
           <Image
-            src="/image/first.jpg"
+            src="/image/unlock.jpg"
             width={1000}
             height={1000}
             className="w-full h-full object-cover"

@@ -5,9 +5,9 @@ const About = () => {
   return (
     <div className="w-full px-[10px] md:px-[100px] py-10">
       <div className="flex flex-col-reverse lg:flex-row w-full  justify-between">
-        <div className="w-full md:w-1/2 py-10 lg:pr-20">
+        <div className="w-full h-[90vh] md:w-1/2 py-10 lg:pr-20">
           <Image
-            src="/image/first.jpg"
+            src="/image/second.jpg"
             width={1000}
             height={1000}
             className="w-full h-full object-cover rounded-[4px]"

@@ -6,7 +6,7 @@ const Unlock = () => {
     <div className="flex items-center py-40 flex-col   relative">
       <div className="w-full absolute top-0 h-[60vh]  left-0">
         <Image
-          src={`/image/fith.jpg`}
+          src={`/image/unlock.jpg`}
           width={1000}
           height={1000}
           className="w-full h-full object-cover"
